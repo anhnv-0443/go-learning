@@ -14,7 +14,7 @@ func main() {
 	log.SetPrefix("greetings: ")
 	log.SetFlags(0)
 
-	message, err := greetings.Hello("", 30)
+	message, err := greetings.Hello("Việt Anh", 30)
 	// If an error was returned, print it to the console and
 	// exit the program.
 	if err != nil {
